@@ -1,0 +1,27 @@
+// All import
+@import '~open-color/open-color';
+@import './boxshadow.scss'; //그림자
+
+// variable
+$gd: 10px; $fs:16px;
+
+//font '나눔스퀘어', 'NanumSquare',
+$font-stack: (
+    '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', "Open Sans", '나눔스퀘어', 'NanumSquare',"맑은 고딕","돋움",Dotum, 'sans-serif',
+);
+
+//color
+$pc1: #ff4181; //point color1
+$pc2: #0185e7; //point color2
+$gc0: $oc-gray-0;
+
+//Heading
+
+
+//Common
+*{margin:0;padding:0}
+html{
+    box-sizing:border-box
+    *{box-sizing:inherit}
+}

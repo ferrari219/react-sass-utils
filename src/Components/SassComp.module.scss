@@ -1,0 +1,13 @@
+@import 'styles/utils.scss';
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width: $gd * 10; height: $gd * 10;
+    background:$pc1;
+    font-size: $fs;
+    color: $oc-gray-0;
+    @include box_shadow(1);
+}
