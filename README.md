@@ -1,2 +1,5 @@
 # react-sass-utils
-react-sass-basic
+
+root - src - js
+     |     |-scss
+     |-public
