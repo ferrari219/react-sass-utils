@@ -1,6 +1,6 @@
 // All import
 @import '~open-color/open-color';
-//@import '~include-media/dist/include-media'; //Responsive
+@import '~include-media/dist/include-media'; //Responsive
 @import './boxshadow.scss'; //Shadow
 
 // variable
@@ -28,15 +28,13 @@ html{
 }
 
 //Responsive
-/*
 $breakpoints: (phone: 320px, tablet: 768px, pc: 1024px);
 
 body{
     @include media('>phone','<=tablet'){
-        background: $pc2;
+        background: $oc-gray-0;
     }
     @include media('>tablet','<=pc'){
         background: $oc-gray-5;
     }
 }
-*/
